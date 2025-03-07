@@ -1,0 +1,115 @@
+/* Estilos para o blog */
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;              /* Usa o Flexbox para o layout */
+    justify-content: center;    /* Alinha horizontalmente ao centro */
+    align-items: center;        /* Alinha verticalmente ao centro */
+    background: linear-gradient(180deg, rgba(255,0,215,1) 0%, rgba(0,212,255,1) 100%); 
+}
+
+.audio-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.line{
+    margin-block: 10px;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+.contador{
+    display: flex;              /* Usa o Flexbox para o layout */
+    justify-content: center;    /* Alinha horizontalmente ao centro */
+    align-items: center; 
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.container2 {
+    margin-top: 1vh;
+    padding: 5%;
+    border-radius: 8px;
+    width: 90vw;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);  /* Cor de fundo branca com opacidade */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    ;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 120px; /* Tamanho da imagem reduzido */
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+    object-fit: cover; /* Garante que a imagem seja bem ajustada */
+}
+
+h1 {
+    color: #fbff00f3;
+    font-size: 1.8em; /* Tamanho da fonte ajustado */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #00aeff;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.title2{
+    color: #ff9900;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 350px; /* Limita o tamanho máximo do player de áudio */
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.paragrafo{
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Ajustes para telas pequenas */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; /* Ajusta o tamanho do título */
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    p {
+        font-size: 0.9em; /* Ajusta o tamanho da fonte */
+    }
+}
